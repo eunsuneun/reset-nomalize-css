@@ -11,8 +11,13 @@ nomalize.css는 용도에 맞는 기본 스타일링은 가지고 가면서 호�
 실제 활용성이 높은 것 위주로 혼합하여 커스터마이징한 reset-nomalize-css 입니다.
 
 <br><br>
-## 출처 🔗 ##
+## CDN 🔗 ##
+<br>
+https://eunsuneun.github.io/reset-nomalize-css/reset-nomalize.css
+<br><br>
+<br><br>
 
+## 출처 📖 ##
 <br>
 Reset.css
 <br>
