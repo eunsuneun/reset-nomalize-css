@@ -25,11 +25,10 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
   padding: 0;
-  box-sizing: border-box;
   border: 0;
+  box-sizing: border-box;
   font-family: 'Noto Sans KR';
   font-size: 100%;
-  line-height: 1;
 	vertical-align: baseline;
 }
 *,
