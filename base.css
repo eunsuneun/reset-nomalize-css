@@ -1,0 +1,75 @@
+/* Base */
+
+html{
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.4rem;
+}
+table {
+	width: 100%;
+}
+table caption {
+  display: none;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  border: 0 none;
+  vertical-align: top;
+}
+*,
+*:before,
+*:after {
+  border-radius: 0;
+  background: transparent;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+/* 반응형 */
+video,
+img {
+  width: 100%;
+}
+/* form */
+input,
+textarea,
+button,
+select {
+  color: inherit;
+  font-family: inherit;
+  vertical-align: middle;
+  border: 0;
+  border-radius: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+input[type="button"],
+input[type="image"],
+button {
+  cursor: pointer;
+}
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration,
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button { -webkit-appearance:none;}
+input[type="number"]{ -moz-appearance:textfield;}
+input[type="number"],
+input[type="text"],
+input[type="password"],
+input[type="url"],
+input[type="email"],
+input[type="tel"],
+input[type="date"], 
+textarea { -webkit-appearance:none; -moz-appearance:none; appearance:none; -webkit-border-radius:0; outline:0;}
+textarea { resize: none;}
+select { appearance:none;}
+select::-ms-expand { display:none;}
+input::placeholder{opacity: 1;} /* 파이어폭스에서 뿌옇게 나오는 현상을 방지하기 위한 css */

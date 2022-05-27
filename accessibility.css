@@ -1,0 +1,38 @@
+/* Accessibility */
+
+.skip-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 101;
+  width: 100%;
+}
+.skip-nav > a{
+  display: block;
+  position: absolute;
+  top: -50px;
+  left: 0;
+  width: 100%;
+  padding: 0 25px;
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  line-height: 50px;
+}
+.skip-nav > a:focust, .skip-nav > a:active{
+  overflow: hidden;
+  top: 0;
+  z-index: 101;
+  text-decoration: none;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
